@@ -29,7 +29,7 @@ class SystemSolver:
         if "ymax" not in self.params:
             self.params["ymax"] = 10  # Max +/- y axis value
         if "psi1" not in self.params:
-            self.params["psi1"] = 1e-50  # ψ[0] = 0; ψ[1] = psi1 for confining V(y)
+            self.params["psi1"] = 1e-50  # ψ[0] = 0; ψ[1] = psi1 for confining v(y)
         if "tol" not in self.params:
             self.params["tol"] = 1e-10  # Percentage tolerance of solution
         if "maxiters" not in self.params:
